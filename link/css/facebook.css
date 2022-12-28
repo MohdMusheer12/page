@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 33%;
+    height: 90vh;
+    margin-left: 400px;
+    margin-top: 80px;
+    position: relative;
+    box-shadow: 0px 5px 8px 5px #aaa;
+    border-radius: 6px;
+}
+.title{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    /* background-color: aquamarine; */
+    line-height: 25px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.title p{
+    width: 100%;
+    height: 50px;
+    /* background-color: brown; */
+    margin-top: -13px;
+}
+.input{
+width: 94%;
+height: 10vh;
+/* background-color: aquamarine; */
+position: relative;
+box-sizing: border-box;
+margin-left: 15px;
+background-size: cover;
+margin-top: 10px;
+}
+.input [type=text]{
+    width: 47%;
+    height: 27px;
+    /* background-color: blueviolet; */
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.input [type=email]{
+    width: 97%;
+    height: 27px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-top: 6px;
+}
+.input [type=password]{
+    width: 97%;
+    height: 27px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-top: 6px;
+}
+.input .firstname{
+    width: 46%;
+    height: 27px;
+    /* background-color: burlywood; */
+    font-size: 15px;
+}
+.input .surename{
+    font-size: 15px;
+}
+.input .email{
+    font-size: 15px;
+}
+.input .password{
+    font-size: 15px;
+}
+.title2{
+    width: 20%;
+    height: 20px;
+    margin-top: 60px;
+    /* background-color: yellow; */
+    margin-left: 18px;
+}
+select{
+   width: 125px;
+   height: 32px;
+   border-radius: 5px;
+   margin-left: 15px;
+   margin-top: -12px;
+}
+.title3{
+    width: 20%;
+    height: 20px;
+    /* background-color: yellow; */
+    margin-left: 18px;
+}
+#all-gender{
+   width: 118px;
+   height: 25px;
+    /* background-color: aqua; */
+    padding: 10px 0px 0px 10px;
+    border: 1px solid #aaa;
+    margin-left: 12px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: -10px;
+}
+.female{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.male{
+    margin-top: -38px;
+    margin-left: 150px;
+}
+.other{
+    margin-top: -38px;
+    margin-left: 290px;
+}
+.box{
+    width: 100%;
+    height: 50px;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+input [type=radio]{
+width: 50px;
+background-color: blueviolet;
+height: 20px;
+}
+.text5{
+    width: 92%;
+    height: 133px;
+    /* background-color: cornflowerblue; */
+    margin-left: 15px;
+    margin-top: -7px;
+}
+.btn{
+    width: 40%;
+    height: 35px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
+    border-radius: 10px;
+}
+.btn button{
+    border-radius: 10px;
+    border: 2px solid gray;
+    width: 100%;
+    height: 35px;
+}
+.text6{
+    margin-left: 110px;
+    text-decoration: none;
+}
+.text6 a{
+    font-size: 23px;
+    text-decoration: none;
+}
